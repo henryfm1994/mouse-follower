@@ -7,8 +7,6 @@ function App() {
 
   // Pointer move
   useEffect(() => {
-    console.log("Efecto", { enabled });
-
     const handleMove = (event: { clientX: any; clientY: any }) => {
       const { clientX, clientY } = event;
       setPosition({ x: clientX, y: clientY });
