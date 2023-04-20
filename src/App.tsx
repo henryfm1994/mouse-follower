@@ -11,7 +11,6 @@ function App() {
 
     const handleMove = (event: { clientX: any; clientY: any }) => {
       const { clientX, clientY } = event;
-      console.log("handleMove", { clientX, clientY });
       setPosition({ x: clientX, y: clientY });
     };
 
